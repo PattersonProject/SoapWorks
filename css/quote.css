@@ -1,0 +1,98 @@
+#container{
+    width: 85%;
+    margin: auto;
+    color: rgb(255, 238, 225);
+    text-shadow: 3px 0 7px black, -3px 1px 6px rgb(1, 1, 92);
+    padding: 0 5%;
+}
+
+#container h2{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+#container>p {
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+#header{
+    width: auto;
+    margin: 6.5px;
+    
+}
+#header h1{
+    line-height: normal;
+}
+#header h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    padding: 0 .7em;
+    line-height: normal;
+}
+#nav{
+    margin: 7px;
+    line-height: 1.55em;
+    font-size: 2em;
+}
+#nav ul{
+    margin: 1em;
+}
+
+#accordion h4{
+    font-size: 1.5em;
+    color: white;
+}
+
+#accordion .panel-heading{
+    background-image: url(../images/Background/rsz_background-water.jpg);
+    background-size: cover;
+}
+#accordion .panel-collapse{
+    background-image: url(../images/Background/rsz_green_raindrops.jpg);
+    background-size:cover;
+}
+
+fieldset{
+    border: 0 none;
+}
+input, select, textarea {
+    background-color: green;
+}
+label{
+    font-size:1.3em;
+    font-weight: normal;
+    display:inline-block;
+}
+span{
+    margin: 15px;
+    padding: 0;
+    display: block;
+}
+#accordion img{
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    width: 200px;
+}
+.labelbelow label input[type="radio"]{
+    display: block;
+    margin: 0.5em auto;
+}
+.aligntop{
+    vertical-align: top;
+}
+.labelbelow label{
+    text-align: center;
+    display: inline-block;
+    margin: 0 1em;
+    border: 1px solid black;
+}
+input[type="submit"]{
+    float: right;
+    font-size: 18px;
+    display: block;
+    height: 30px;
+}

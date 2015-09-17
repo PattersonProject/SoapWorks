@@ -1,0 +1,21 @@
+ErrorDocument 404 http://morpheus.dce.harvard.edu/~mpatters/psw/sw404.php
+
+ExpiresActive On
+
+ExpiresDefault "now plus 1 month"
+
+#CSS and JS expiration headers
+ExpiresByType text/css  A604800
+ExpiresByType text/js   A604800
+
+#Image expiration headers
+ExpiresByType image/jpg   A604800
+ExpiresByType image/jpeg   A604800
+ExpiresByType image/png   A604800
+ExpiresByType image/gif   A604800
+
+AddOutputFilterByType DEFLATE text/xhtml
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/js
+

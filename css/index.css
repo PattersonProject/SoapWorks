@@ -1,0 +1,30 @@
+#container{
+    width: 85%;
+    margin: auto;
+    color: rgb(255, 238, 225);
+    text-shadow: 3px 0 7px black, -3px 1px 6px rgb(1, 1, 92);
+    padding: 0 5%;
+}
+#container h2{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+#container>p{
+    font-size: 1.5em;
+    padding: 2%;
+}
+#container a:link {
+    color: #00f;
+    text-shadow:  3px 0 7px rgb(1, 1, 92),  -3px 1px 6px white;
+}
+#container a:visited{
+    color: #fa0bfa;
+}
+
+.product_thumb{
+    margin: auto;
+    width: 300px;
+    height: 330px;
+}

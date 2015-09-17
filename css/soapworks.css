@@ -1,0 +1,86 @@
+body {
+    font-family: 'Shadows Into Light', cursive;
+    background-image: url(../images/Background/wood-planks--raw-weathered-gray.jpg);
+    background-color: grey;
+}
+#floatleft{
+    float:left;
+}
+#floatright{
+    float:right;
+    clear: both;
+}
+
+/*Product Thumbnail style*/
+.product_thumb {
+    
+    border: 1px solid black;
+    text-align: center;
+    background-image: url(../images/thumbnails/rsz_lightwood.jpg);
+    background-color: rgba(177, 124, 6, 0.12);
+}
+
+.product_thumb>p {
+    width: 70%;
+    margin: auto;
+    font-size: 1em;
+}
+
+.product_thumb .hidden:link, .hidden:visited{
+    visibility: hidden;
+}
+.product_thumb:hover .hidden {
+    visibility: visible;
+}
+.product_thumb a:active{
+    visibility: visible;
+}
+
+/*Button Styles*/
+/*These Styles are created with and adapted from http://www.bestcssbuttongenerator.com/ */
+.button {
+    margin: 0;
+    font-family:'Boogaloo', cursive;
+	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
+	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #95db72), color-stop(1, #6ba84c));
+	background:-moz-linear-gradient(top, #95db72 5%, #6ba84c 100%);
+	background:-webkit-linear-gradient(top, #95db72 5%, #6ba84c 100%);
+	background:-o-linear-gradient(top, #95db72 5%, #6ba84c 100%);
+	background:-ms-linear-gradient(top, #95db72 5%, #6ba84c 100%);
+	background:linear-gradient(to bottom, #95db72 5%, #6ba84c 100%);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#95db72', endColorstr='#6ba84c',GradientType=0);*/
+	background-color:#95db72;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4e8f2e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:1% 5%;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6ba84c), color-stop(1, #95db72));
+	background:-moz-linear-gradient(top, #6ba84c 5%, #95db72 100%);
+	background:-webkit-linear-gradient(top, #6ba84c 5%, #95db72 100%);
+	background:-o-linear-gradient(top, #6ba84c 5%, #95db72 100%);
+	background:-ms-linear-gradient(top, #6ba84c 5%, #95db72 100%);
+	background:linear-gradient(to bottom, #6ba84c 5%, #95db72 100%);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6ba84c', endColorstr='#95db72',GradientType=0);*/
+	background-color:#6ba84c;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+input.button{
+    font-size: .8em;
+}
+input[type="number"]{
+    width: 3em;
+    height: 2em;
+}

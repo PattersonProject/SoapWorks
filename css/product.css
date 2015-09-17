@@ -1,0 +1,25 @@
+#product {
+    text-align: center;
+    color: rgb(255, 238, 225);
+    text-shadow: 3px 0 7px black, -3px 1px 6px rgb(1, 1, 92);
+    font-weight: normal;
+    font-size: 1.5em;
+    background-image: url(../images/Background/Light-Wood-Background.jpg);
+    background-size: cover;
+    background-color: rgba(177, 124, 6, 0.12);
+    
+}
+#product img{
+    width: 50%;
+    float: left;
+}
+#product>p{
+    margin: .5em;
+    padding: .1em;
+    
+}
+
+input[type="number"]{
+    width: 3em;
+    height: 2em;
+}

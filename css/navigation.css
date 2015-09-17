@@ -1,0 +1,33 @@
+#nav ul li#iamhere a{
+    color: rgb(121, 173, 255);
+    text-shadow: 3px 5px 6px #fff, -3px -4px 8px rgb(242, 255, 141);
+}
+#nav{
+    
+    background-image: url(../images/Background/bamboo_2-wallpaper-1024x768.jpg) ;
+    background-size: cover;
+    font-size: 2em;
+   
+    text-align: center;
+    vertical-align: middle
+}
+
+#nav ul{
+    vertical-align: middle;
+}
+
+#nav ul li{
+    display: inline;
+    list-style-type: none;
+    width: auto;
+    padding: 0;
+    margin: auto 2%;
+    color: rgb(255, 238, 225);
+}
+#nav a:link, a:visited{
+    text-decoration: none;
+    color: rgb(255, 238, 225);
+    text-shadow: 3px 0 7px black, -3px 1px 6px rgb(1, 1, 92);
+    margin: auto;
+    width: 20%;
+}
