@@ -60,14 +60,14 @@
             <div class="panel-heading">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                  What kind of soap you like
+                  What kind of soap would you like?
                 </a>
               </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
               <div class="panel-body">
                 <fieldset>
-                  <label>Do you want your bars</label><br/>
+                  <label>What type of bars would you like?</label><br/>
                   <span class="labelbelow">
                     <label for="moldedbox"><img src="images/thumbnails/molded.jpg" alt="Molded soap bar"><input type="radio" name="moldtype" value="molded" id="moldedbox">Molded</label>
                     <label for="stampedbox"><img src="images/thumbnails/treestamp.jpg" alt="Stamped soap bar"><input type="radio" name="moldtype" value="stamped" id="stampedbox" checked="checked">Stamped</label>
