@@ -31,3 +31,7 @@
     margin: auto;
     width: 20%;
 }
+#nav a:hover {
+	text-shadow: 3px 5px 6px #fff, -3px -4px 8px rgb(242, 255, 141);
+	color: rgb (218,201,245);
+}

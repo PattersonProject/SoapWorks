@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="css/navigation.css">
         <link rel="stylesheet" type="text/css" href="css/soapworks.css">
-        <link rel="shortcut icon" type="image/x-icon" href="http://morpheus.dce.harvard.edu/~mpatters/psw/swfavicon.ico"> <!--favicon-->
+        <link rel="shortcut icon" type="image/x-icon" href="../swfavicon.ico"> <!--favicon-->
         <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'> <!--Shadows font -->
         <link href='http://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'> <!-- Boogaloo font -->
         <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script><!--jquery-->
