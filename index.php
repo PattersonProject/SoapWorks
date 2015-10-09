@@ -14,7 +14,7 @@
             <div id="container">
             <h2>Welcome to Patterson Soap Works</h2>
             <div id=floatright> <?php include("products/thumbnail/lettucepear.php");?> </div>    
-            <p>Patterson Soap works is a small batch boutique soapmaker.  Founded in 2014, we are dedicated to using unique scents and creating custom color patterns to create a unique, personalized gifts or accents.  Our personalized soaps make great gifts, wedding favors, or holiday gifts. So There.</p>
+            <p>Patterson Soap works is a small batch boutique soapmaker.  Founded in 2014, we are dedicated to using unique scents and creating custom color patterns to create a unique, personalized gifts or accents.  Our personalized soaps make great gifts, wedding favors, or holiday gifts.</p>
             
             <p>We can customize your project by working with our graphic designer, <a href="http://www.daydreamdesign.com">Derek</a>, working with your inhouse designer, or adapting exsiting logos or text.</p>
              <div id=floatleft> <?php include("products/thumbnail/honey.php");?> </div>
