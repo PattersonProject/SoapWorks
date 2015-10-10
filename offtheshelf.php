@@ -10,8 +10,8 @@
         <?php include("include/header.php");?>
         <?php include("include/navigation.php");?>
         <div id="container">
-            <h2>Our Off The Shelf Produt Gallery</h2>
-            <p>In additon to our custom soaps we also have some of our favorite bars available on their own. Some of these are succesful test batches for projects and others are just irrestiable sents that we like to have around.  These products change frequently so check back often!</p>
+            <h2>Our Off The Shelf Product Gallery</h2>
+            <p>In additon to our custom soaps we also have some of our favorite bars available on their own. Some of these are succesful test batches for projects and others are just irrestiable scents that we like to have around.  These products change frequently so check back often!</p>
             <?php include("products/thumbnail/lettucepear.php");?>
             <?php include("products/thumbnail/lavender.php");?>
             <?php include("products/thumbnail/honey.php");?>

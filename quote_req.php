@@ -19,13 +19,15 @@
         <div class="panel-group" id="accordion">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+			  <h4 class="panel-title">
+                
                   Tell us about your order
-                </a>
+                
               </h4>
+			  </a>
             </div>
-            <div id="collapseOne" class="panel-collapse collapse in">
+            <div id="collapseOne" class="panel-collapse collapse collapse">
               <div class="panel-body">
                     <fieldset>
                     <span>
@@ -39,8 +41,8 @@
                     </span>
                     <span>
                           <label>Is this a </label> 
-                          <label for="oncebox"><input type="radio" name="frequency" value="once" id="oncebox" checked="checked"> one time event.</label> 
-                          <label for="recurringbox"><input type="radio" name="frequency" value="recurring" id="recurringbox"> a recurring order.</label>
+                          <label for="oncebox"><input type="radio" name="frequency" value="once" id="oncebox" checked="checked"> one time event?</label> 
+                          <label for="recurringbox"><input type="radio" name="frequency" value="recurring" id="recurringbox"> a recurring order?</label>
                     </span>
                     <span>
                         <label>Do you want personalized packaging? </label>
