@@ -1,4 +1,4 @@
-ErrorDocument 404 http://morpheus.dce.harvard.edu/~mpatters/psw/sw404.php
+ErrorDocument 404 /sw404.php
 
 ExpiresActive On
 
