@@ -13,8 +13,8 @@ This is a customer facing website for a fictional, artisanal soap company.  The 
 * ’Contact Us’ and ‘Your account’ are dead links at this time
 
 ##ToDo
-~~* Make favicon link relative~~
-* Fix broken links from Morpheus move (make all links relative)
 * Change main background image to something that makes text more readable
 * Create a proper ‘Contact Us’ page
 * Research shopping cart plugins
+~~Fix broken links from Morpheus move (make all links relative)~~
+~~Make favicon link relative~~
