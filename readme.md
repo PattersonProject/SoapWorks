@@ -9,9 +9,9 @@ This is a customer facing website for a fictional, artisanal soap company.  The 
 ##Features
 * Each of the product preview boxes will show an expanded view using the Fancybox JQuery plugin when the 'Quick Look' button is clicked
 * These product preview boxes are all dropped in using a PHP include which allows for them to be updated and changed quickly as needed. 
-* The 'Add to Cart' buttons forward the quantity to an echo script on Harvards Morpheus server which will return the variables sent
+* The 'Add to Cart' buttons forward the quantity to an echo script on Harvard's Morpheus server which will return the variables sent
 * The 'Request a Quote' page utilizes the same script to echo the form data
-* The 'Request a Quote' form uses an accordian plugin from twitter Bootstrap using Javascript.  If Javascript is disabled the form will display fully. 
+* The 'Request a Quote' form uses an accordion plugin from twitter Bootstrap using Javascript.  If Javascript is disabled the form will display fully. 
 * 'Contact Us' and 'Your account' are not implemented at this time
 
 
@@ -20,6 +20,6 @@ This is a customer facing website for a fictional, artisanal soap company.  The 
 * Create a proper 'Contact Us' page
 * Add better form validation for 'Request a Quote' form
 * Research shopping cart plugins
-* Add user account funcionality
-~~Fix broken links from Morpheus move (make all links relative)~~
-~~Make favicon link relative~~
+* Add user account functionality
+* ~~Fix broken links from Morpheus move (make all links relative)~~
+* ~~Make favicon link relative~~
